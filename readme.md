@@ -44,4 +44,5 @@ I was trying to catch the error when it happens but realized that no error gets 
 -   So i will make that delay function that retuns a promise so we can await it...
 -   So if i call the resolve of the promise function after some time, this way i have made the main function really pause and wait for it
 -   Something like return new Promise((resolve)=>setTimeout(resolve, 1000)), I think this will work because the promise returns the value it promised when resolve is returned so if resolve is retuned after some time the delay happens
+-   I think this solution is good, because the it exactly delivers what is asked in the question exactly as needed. The delay logic is implemented as required and the also a randomly response returining function is implemented, the logic for that was found right on the first page of the documentation with some edits to fit the context.
 
